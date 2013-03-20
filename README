@@ -1,0 +1,13 @@
+=============README EXAMPLE==============
+modified Gateway6 Client v5.1-RELEASE 
+
+edited from gw6c-5_1-RELEASE-src.tar.gz 
+to the version could be cross compiled
+
+ins :  ( make project in tspc-advanced/ )
+make cleanall target=linux (not make clean)
+make all target=linux CROSS_COMPILE=mipsel-linux- 
+     OPENSSL_INCDIR=/path/to/omatoraf/release/src-rt/router/openssl/include 
+     CRYPTO_LIBDIR=/path/totomatoraf/release/src-rt/router/openssl
+
+===============README EOF==================
