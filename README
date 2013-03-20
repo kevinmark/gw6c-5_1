@@ -7,7 +7,7 @@ to the version could be cross compiled
 ins :  ( make project in tspc-advanced/ )
 make cleanall target=linux (not make clean)
 make all target=linux CROSS_COMPILE=mipsel-linux- 
-     OPENSSL_INCDIR=/path/to/omatoraf/release/src-rt/router/openssl/include 
-     CRYPTO_LIBDIR=/path/totomatoraf/release/src-rt/router/openssl
+     OPENSSL_INCDIR=/path/to/tomatoraf/release/src-rt/router/openssl/include 
+     CRYPTO_LIBDIR=/path/to/tomatoraf/release/src-rt/router/openssl
 
 ===============README EOF==================
